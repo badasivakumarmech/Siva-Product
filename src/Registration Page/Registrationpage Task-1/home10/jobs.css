@@ -1,0 +1,283 @@
+.mainNavBar {
+    justify-content: space-between;
+}
+
+/* @media (max-width: 991px) {
+    .firstDiv{
+    display: none;
+    }
+    
+  } */
+#jobsDropDown {
+    color: #2c0264;
+    font-weight: bold;
+}
+
+.secondContainer {
+    background-color: #f8f2f8;
+}
+
+.searchBox {
+    border: none;
+    outline: none;
+}
+
+.seacrhMainContainer {
+    background-color: white;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.registerButton {
+    background-color: #2c0264;
+    color: white;
+    width: auto;
+    font-weight: 500;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+.categoryButton {
+    background-color: #2c0264;
+    color: white;
+    width: auto;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px whitesmoke;
+}
+
+#dropdown1,
+#dropdown2 {
+    color: black;
+    font-size: 14px;
+}
+
+.categoryBtn {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 1px whitesmoke;
+    border: none;
+    font-size: 13px;
+}
+
+#homeNavBar {
+    color: black;
+    background-color: white;
+    font-weight: 400;
+}
+
+.allJobsContainer {
+    height: 700px;
+    overflow-y: scroll;
+}
+
+.categoryBtnContainer {
+    height: 500px;
+    position: sticky;
+    top: 0;
+}
+
+.categoryTitle {
+    color: #2c0264;
+    font-weight: bold;
+}
+
+.locationBtn {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2px whitesmoke;
+    border: none;
+    font-size: 13px;
+}
+
+.fixed-container {
+    width: fit-content;
+}
+
+.categories {
+    /* box-shadow: 5px 5px 5px 2px whitesmoke;
+    box-shadow: -3px 3px 2px 0.2px whitesmoke;
+    box-shadow: -3px 3px 2px 0.2px whitesmoke; */
+    box-shadow: 1px 0px 10px -6px rgba(0, 0, 0, 0.5), -1px 0px 10px -6px rgba(0, 0, 0, 0.5);
+}
+
+.cont1 {
+    justify-content: space-between;
+}
+
+.textContent {
+    justify-content: space-around;
+    text-decoration: none;
+    color: #2c0264;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.logo {
+    display: inline-block;
+    width: 100px;
+    transition: transform 0.2s;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+.indus {
+    color: #2c0264;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.indBtn {
+    border: transparent;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #ffffff;
+    border-radius: 5px;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.iconarr {
+    padding-right: 15px;
+}
+
+#bLine {
+    border-bottom: 1px solid white;
+}
+
+.logos {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.thick-horizontal-line {
+    height: 1px;
+    background-color: white;
+
+}
+
+.footerSection {
+    background-color: black;
+    color: white;
+}
+
+.secondCol,
+.thirdCol,
+.fourthCol {
+    font-size: 10px;
+    word-spacing: 5px;
+    line-height: 1.2rem;
+}
+
+.footerSection {
+    padding: 70px;
+}
+
+.footerText {
+    font-size: 9px;
+    line-height: 1.5rem;
+
+}
+
+.secondFooterContainer {
+    justify-content: space-between;
+
+}
+
+.firstFooterContainer {
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .secondFooterContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: initial;
+    }
+
+}
+
+.footerSection {
+    padding: 20px;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    #bottomPabLogo {
+        width: 100px;
+
+    }
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    #bottomPabLogo {
+        width: 100px;
+
+    }
+
+    #iconSymbol {
+        font-size: 15px;
+        padding: 2px;
+    }
+
+    .footerSection {
+        padding: 20px;
+    }
+
+    .betweenElement {
+        color: silver;
+        font-weight: 200;
+    }
+
+
+}
+
+#linkedIn,
+#facebook,
+#instagram,
+#twitter {
+    transition: 2s;
+}
+
+#linkedIn:hover,
+#facebook:hover,
+#instagram:hover,
+#twitter:hover {
+    transform: rotate(360deg);
+}
+
+.pabLogo {
+    width: 150px;
+}
+
+/* profilediv */
+.profilediv {
+    width: 300px;
+    background-color: rgba(241, 138, 35, 0.43);
+    height: 80vh;
+    margin-left: 20%;
+    margin-bottom: 10px;
+
+}

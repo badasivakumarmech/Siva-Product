@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item1 {
+    margin-left: 100px;
+    font-size: 17px;
+    list-style-type: none;
+    color: rgb(2, 2, 109);
+    font-weight: bold;
+
+}
+
+.bannersection {
+    background-color: rgb(227, 207, 241);
+    padding: 2%;
+}
+
+.buttons1 {
+    padding: 8px;
+
+
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+}
+
+.buttons21 {
+    padding: 8px;
+
+
+    border-radius: 10px;
+    background-color: white;
+    background-color: rgb(7, 7, 93);
+    color: white;
+
+    border: none;
+}
+
+.content1 {
+    background-color: rgb(238, 226, 246);
+    padding-top: 20px;
+
+
+
+}
+
+.card1 {
+    background-color: white;
+
+
+
+
+}
+
+.card2 {
+    background-color: white;
+
+
+}
+
+.heading-page {
+    background-color: rgb(2, 2, 99);
+    height: 8vh;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.Monthly1 {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.Daily1 {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 5px;
+}
+
+
+
+.para21 {
+    font-size: 12px;
+    margin-left: 30px;
+    margin-right: 20%;
+
+    border-right: 3px solid rgb(215, 207, 207);
+    font-weight: 800;
+
+
+}
+
+.para212 {
+    font-size: 12px;
+    margin-left: 30px;
+    margin-right: 20%;
+
+    font-weight: 800;
+
+
+
+}
+
+.button31 {
+    margin-left: 32%;
+    margin-top: 20px;
+    width: 30%;
+    background-color: white;
+    padding: 10px;
+    border-color: rgb(2, 2, 16);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.months {
+    font-weight: bold;
+    color: black;
+}
+
+.amounts {
+    font-weight: bold;
+}
+
+
+.parag1 {
+    font-size: 12px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 40%;
+    margin-top: 10px;
+
+}
+
+
+
+
+/* 2nd */
+
+.jobposting {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.amount31 {
+    background-color: rgb(239, 227, 246);
+    font-size: 10px;
+    border-radius: 10px;
+
+
+}
+
+.rupee {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.months {
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 19%;
+    margin-right: 20%;
+}
+
+.jobposting {
+    margin-top: 20px;
+}
+
+.para31 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.para313 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20%;
+}
+
+.para314 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 30%;
+}
+
+.para315 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 19%;
+}
+
+.startedbtn {
+    border: 1px solid rgb(2, 2, 87);
+    background-color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.listiteam {
+    list-style-type: none;
+}
+
+.monthplan {
+
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rupee2 {
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.mlimit {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.listiteam {
+    font-size: 13px;
+}
+
+/* dashboard */
+
+.dashboard {
+    background-color: rgb(241, 235, 244);
+}
+
+.para41 {
+    font-size: 13px;
+}
+
+.icon3 {
+    font-size: 40px;
+    color: rgb(182, 175, 175);
+}
+
+.span1 {
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+.span2 {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.span3 {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.Downloadslogo {
+    width: 50px;
+
+}
+
+.span131 {
+
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.span231 {
+    font-weight: bold;
+}
+
+.musage {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 8%;
+    color: rgb(3, 3, 88);
+}
+
+.section-3 {
+    background-color: rgb(232, 222, 244);
+    border-radius: 20px;
+}
+
+.rpofile {
+    color: rgb(5, 5, 73);
+    font-size: 25px;
+
+}
+
+.button41 {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+    margin-left: 50%;
+    font-size: 20px;
+    height: 7vh;
+}
+
+.section-4 {
+    background-color: rgb(17, 17, 49);
+    border-radius: 10px;
+}
+
+.info {
+    color: white;
+    margin-left: 10%;
+    font-size: 18px;
+}
+
+.info2 {
+    color: white;
+    margin-left: 15%;
+    font-size: 18px;
+}
+
+.info31 {
+    color: black;
+    margin-left: 7%;
+    font-size: 18px;
+}
+
+.info231 {
+    color: black;
+    margin-left: 15%;
+    font-size: 18px;
+}
+
+.info2331 {
+    color: black;
+    margin-left: 15%;
+    font-size: 12px;
+    border: 1px solid rgb(3, 3, 63);
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+
+
+}
+
+.info23121 {
+    color: black;
+    margin-left: 12%;
+    font-size: 18px;
+    width: 10%;
+
+    background-color: white;
+}
+/* search candidates */
+
+.excelbtn{
+    background-color: blue;
+    border-radius: 10px;
+     
+     /* width: 16%; */
+    color: white;
+}

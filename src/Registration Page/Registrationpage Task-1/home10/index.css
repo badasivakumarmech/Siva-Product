@@ -1,0 +1,414 @@
+.par {
+    font-family: "Arial";
+    font-size: 20px;
+    color: #2c0264;
+    ;
+}
+
+.devi {
+    margin-right: 300px;
+}
+
+.navbar {
+    width: 100v;
+    height: 100px;
+}
+
+/* .uma{
+
+background-color: white;
+color: black;
+padding-left: 20px;
+
+margin-left: 100px;
+margin-right: 400px;
+
+
+
+} */
+.button1 {
+    background-color: #2c0264;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    margin-bottom: 10px;
+
+}
+
+/* button {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px; 
+    width: 200px;
+    background-color: #fdfeff;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+        -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    margin-left: 40px;
+
+} */
+.b1 {
+    padding: 10px;
+    margin: 10px;
+}
+
+.b2 {
+    padding: 10px;
+    margin: 10px;
+}
+
+.control {
+
+    width: 80%;
+    border-radius: 15px;
+
+}
+
+.control1 {
+
+    width: 70%;
+    border-radius: 15px;
+
+}
+
+.b6 {
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    height: 50px;
+    width: 60px;
+}
+
+.card {
+    width: 80%;
+}
+
+/* .form{
+    border-color:#4f3570;
+border-radius: 80px;
+width: 450px;
+} */
+.card {
+    margin: 20px;
+    padding: 40px;
+    width: 650px;
+    height: 0px;
+
+}
+
+.card1 {
+    margin: 20px;
+    padding: 40px;
+    width: 500px;
+    height: 100px;
+
+}
+
+.profile {
+    color: white;
+    background-color: #2c0264;
+    border-radius: 20px;
+    width: 40px;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+
+}
+
+.bg-container {
+    background-color: #f8f2f8;
+
+}
+
+/* .form-label{
+    font-size: 20px;
+    font-weight: 10px;
+    font-family: "bolod";
+} */
+.btn2 {
+    margin-left: 19px;
+}
+
+@media screen and (max-width:768px) {
+    .remove {
+        display: none;
+    }
+}
+
+.btn1 {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    background-color: #fdfeff;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+        -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    margin-left: 5px;
+
+
+}
+
+.btn2 {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    background-color: #fdfeff;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+        -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    margin-left: 0.5px;
+
+}
+
+.btn3 {
+    font-size: 18px;
+    font-weight: 500;
+    /* padding: 10px;
+margin: 10px; */
+
+    width: 200px;
+    height: 50px;
+    background-color: #fdfeff;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+        -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    /* margin-left: 40px; */
+
+}
+
+.btn4 {
+    font-size: 18px;
+    font-weight: 500;
+    /* padding: 10px;
+     margin: 10px; */
+
+    width: 200px;
+    height: 50px;
+    background-color: #fdfeff;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+        -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    /* margin-left: 40px; */
+}
+
+/* 2nd */
+
+.login-header-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.login-navitem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.loginheader {
+    text-align: center;
+}
+
+.loginheader1 {
+    color: black;
+}
+
+.loginpara {
+    color: #4f3570;
+
+}
+
+.loginemail {
+    color: black;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.loginpassword {
+    color: black;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.logininput {
+    padding: 10px;
+    border: 1px solid #4f3570;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.loginforgot {
+    margin-left: auto;
+    color: #4f3570;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.loginbutton {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(20, 20, 85);
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
+
+}
+
+.loginh4 {
+    text-align: center;
+    color: #4f3570;
+    margin-top: 20px;
+}
+
+.loginbutton2 {
+    padding: 10px;
+    width: 220px;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+}
+
+.logingoogle {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.googleimg {
+    width: 60px;
+    height: 30px;
+    padding-right: 20px;
+
+}
+
+.eyeicon {
+    margin-left: 500px;
+    margin-top: -40px;
+    color: rgb(213, 206, 206);
+}
+
+.pabjobheading {
+    text-align: center;
+    color: #4f3570;
+    margin-top: 20px;
+}
+
+.janlogin {
+    color: #2c0264;
+    margin-right: 10px;
+}
+
+.loginspan1 {
+    margin-top: 20px;
+}
+
+.Register {
+    margin-top: 10px;
+    border: 1px solid #4f3570;
+    border-radius: 10px;
+    color: #4f3570;
+    background-color: white;
+    text-decoration: none;
+
+}
+
+.container5 {
+    background-color: #f8f2f8;
+}
+
+.container6 {
+    color: white;
+    background-color: black;
+    margin-top: 180px;
+}
+
+.logincard2 {
+    margin-top: 40px;
+}
+
+.logincard1 {
+    margin-top: 40px;
+}
+
+/*jobs  */
+.bg-container1 {
+    background-color: #f8f2f8;
+    height: 200px;
+    width: 100vw;
+}
+
+.searchbar1 {
+    background-color: white;
+    color: gray;
+    border-color: white;
+    margin-right: 20px;
+    padding-left: 5px;
+    border-radius: 10px;
+
+}
+
+.searchbar2 {
+    background-color: white;
+    color: gray;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.searchbutton {
+    background-color: #2c0264;
+    color: white;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 1000px;
+    margin-top: 20px;
+}
+
+.jobbutton {
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.jobbutton1 {
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* profile .angel-img {
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+} */

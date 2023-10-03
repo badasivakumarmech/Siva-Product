@@ -1,0 +1,29 @@
+ 
+.heading211{
+    font-weight: bold;
+}
+.etotal{
+    border: 1px solid black;
+}
+.content12{
+   width: 900px;
+   margin: 0px;
+    
+}
+.image123{
+    border-radius: 100px;
+   
+
+}
+.resumeh5{
+    margin-top: 18px;
+    font-size: 18PX;
+    font-weight: bold;
+    color: rgba(7, 7, 7, 0.971);
+}
+.bg-images1{
+    background-color: #f8f2fb;
+}
+.resumebtn{
+    background-color: white;
+}

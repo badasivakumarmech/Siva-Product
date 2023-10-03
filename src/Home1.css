@@ -1,0 +1,33 @@
+.logostyle {
+    margin-left: auto;
+}
+.logostyle1{
+    margin-left: 50%;
+}
+
+.logosymbol {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.navstyle {
+    font-weight: 400;
+    color: black;
+    font-size: 20px;
+}
+
+.navstyle1 {
+    font-weight: bold;
+    color: rgb(4, 32, 247);
+    font-size: 20px;
+
+}
+
+/* footer */
+.footer {
+    background-color: black;
+    text-align: start;
+
+}
+
+ 

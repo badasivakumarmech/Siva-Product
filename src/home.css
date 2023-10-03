@@ -1,0 +1,660 @@
+/* home page */
+
+.container8 {
+  background-image: url(https://img.freepik.com/free-vector/realistic-white-golden-geometric-background_79603-2032.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.homeh2 {
+  text-align: center;
+  color: rgb(24, 24, 137);
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.homepara {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.homebutton {
+  text-align: center;
+}
+
+.homebutton1 {
+  text-align: center;
+}
+
+.subbutton1 {
+  background-color: #2c0264;
+  color: white;
+  border-radius: 10px;
+}
+
+.subhomebutton {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+
+
+
+}
+
+.btn1 {
+  background-color: rgb(239, 234, 234);
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 7px;
+
+}
+
+.container9 {
+  margin-top: 40px;
+  
+
+}
+ 
+
+.btngroup1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btngroup2 {
+  margin-bottom: 10px;
+}
+
+.btn1 {
+  color: #2c0264;
+  font-size: 13px;
+}
+
+.topsearch {
+  color: #2c0264;
+  font-weight: bold;
+  text-align: start;
+  margin-left: 15%;
+}
+
+.imgbutton {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.container101 {
+  background-color:white;
+  box-shadow: 5px 5px 5px 3px whitesmoke;
+}
+
+.searchlocate {
+  color: #2c0264;
+  font-weight: bold ;
+}
+
+.bellicon {
+  margin-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #2c0264;
+
+}
+
+.btn1:hover {
+  background-color: rgb(238, 228, 228);
+  color: black;
+
+}
+ 
+
+.imgbutton:hover {
+  background-color: rgb(186, 182, 182);
+}
+
+
+/* get otp css */
+
+.getotppara {
+  color: blue;
+  font-size: small;
+}
+.subbutton1{
+  width: 100px;
+  margin-top: 30px;
+  background-color: #270750;
+}
+.parag2{
+  text-align: end;
+  color: #5608bb;
+  font-size: 15px;
+}
+
+
+
+
+/* -----------------------part-2---------------------------------- */
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.blueText {
+  color: aqua;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.whiteText {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.paraText {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+::placeholder {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.industry {
+  background-color: #f8f2f8;
+}
+
+.indus {
+  color: #2c0264;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.indBtn {
+  border: transparent;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #ffffff;
+  border-radius: 5px;
+  justify-content: space-around;
+}
+
+/* .custom-btn {
+  height: 60px;
+  color: #070731;
+  border-radius: 15px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+  outline: none;
+} */
+.custom-btn21{
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 15px;
+  color: #070731;
+  box-shadow: inset 2px 2px 2px 0px rgba(242, 231, 231, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+  
+}
+
+.custom-btn21:hover {
+  background-color: rgb(120, 121, 121);
+  color: rgb(7, 7, 7);
+}
+.card21{
+  margin-left: 14%;
+}
+
+/* 10 */
+/* .btn-10 {
+  background: rgb(11, 11, 11);
+  background: linear-gradient(0deg, rgba(22, 9, 240, 1) 0%, rgba(49, 110, 244, 1) 100%);
+  color: #f5f907;
+  border: none;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.btn-10:after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+  -webkit-transform: scale(.1);
+  transform: scale(.1);
+}
+
+.btn-10:hover {
+  color: black;
+  border: none;
+  background: transparent;
+}
+
+/* .btn-10:hover:after {
+  background: rgb(0, 3, 255);
+  background: linear-gradient(0deg, rgba(2, 126, 251, 1) 0%, rgba(0, 3, 255, 1)100%);
+  -webkit-transform: scale(1);
+  transform: scale(1); */
+
+
+
+
+
+ .par21{
+  font-size: 12px;
+ }
+
+
+
+
+
+.loginlabel{
+   display: flex;
+    
+}
+form-control
+
+
+
+
+
+.nav-item {
+  list-style: none;
+}
+
+.logoCard {
+  width: 35px;
+  padding: px;
+}
+.banking{
+  font-size: 15px;
+}
+.images2{
+  text-align: start;
+  /* margin-right: 10px; */
+  margin-left: 150px;
+}
+.images3{
+  text-align: start;
+  /* margin-right: 10px; */
+  margin-left: 270px;
+}
+
+.jobCard1 {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 2px gray;
+  border: none;
+}
+
+.jobCard:hover {
+  background-color: rgb(141, 127, 127);
+}
+
+.secondContainer {
+  background-color: #f8f2f8;
+}
+
+.registerButton {
+  background-color: #2c0264;
+  color: white;
+  width: auto;
+  font-weight: 500;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+}
+
+.textContent {
+  justify-content: space-around;
+  text-decoration: none;
+  color: #2c0264;
+}
+
+.searchBox {
+  border: none;
+  outline: none;
+}
+
+.seacrhMainContainer {
+  background-color: white;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+
+.sText {
+  font-size: 15px;
+}
+
+.logo {
+  display: inline-block;
+  width: 100px;
+  transition: transform 0.2s;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.skills1 {
+  background-color: #3f2859;
+  margin: 0;
+  padding: 0;
+}
+.image111{
+  display: block;
+  /* margin: 0;
+  padding: 0; */
+}
+.text-para{
+  font-size: 13px;
+}
+.skills2 {
+  background-color: #7009f5;
+  /* align-items: center; */
+  border-radius: 5px;
+}
+ 
+ 
+.nav-link{
+ text-decoration-line: none;
+}
+ 
+ 
+
+.skillHead {
+  color: aqua;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.skillPara {
+  color: white;
+  font-size: 15px;
+  width: 62%;
+}
+
+.contact {
+  background-color: #2c0264;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.callText {
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  font-size: small;
+}
+
+/* footer css */
+.pabTopLogo {
+  width: 150px;
+}
+
+.section3 {
+  background-color: black;
+}
+
+.bottomtext {
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.bImg {
+  border-radius: 10px;
+}
+
+#PabBtmLogo {
+  border-radius: 5px;
+}
+
+.innerContainer {
+  justify-content: space-around;
+}
+
+.iconarr {
+  padding-right: 15px;
+}
+
+#bLine {
+  border-bottom: 1px solid white;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.thick-horizontal-line {
+  height: 1px;
+  background-color: white;
+}
+
+.footerSection {
+  background-color: black;
+  color: white;
+}
+
+.firstFooterContainer {
+  justify-content: space-between;
+}
+
+.secCol,
+.triCol,
+.forCol {
+  font-size: 12px;
+  word-spacing: 5px;
+  line-height: 1.3rem;
+}
+
+.footerSection {
+  padding: 60px;
+}
+
+.footerText {
+  font-size: 11px;
+  line-height: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .secondFooterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #PabBtmLogo {
+    width: 100px;
+  }
+
+  .footerSection {
+    padding: 20px;
+  }
+}
+
+
+#linked {
+  transition: 5s;
+}
+
+#linked:hover {
+  transform: rotate(360deg);
+}
+
+#insta {
+  transition: 5s;
+}
+
+#insta:hover {
+  transform: rotate(360deg);
+}
+
+#fb {
+  transition: 5s;
+}
+
+#fb:hover {
+  transform: rotate(360deg);
+}
+
+#twitter {
+  transition: 5s;
+}
+
+#twitter:hover {
+  transform: rotate(360deg);
+}
+
+.form-control:focus {
+  background-color: none;
+  outline: none;
+  box-shadow: none;
+  color: none;
+  border-color: black;
+}
+
+.container3 {
+  margin-left: 50px;
+}
+
+.custom-btn {
+  background-color: rgb(222, 221, 221);
+  
+  /* border-radius: 20px; */
+ 
+}
+ 
+.custom-btn1 {
+  background-color: rgb(254, 254, 254);
+  color: black;
+}
+ 
+
+/* Recruiter css */
+
+.navstyle2{
+margin-top: 10px;
+}
+.bg-recruiter{
+  background-color:white;
+
+}
+.profilebutton12{
+  background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px grey;
+    width: 100%;
+    margin-top: 2px;
+}
+.profilebutton121{
+  background-color: #f8f2fb;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px grey;
+  width: 100%;
+  color: #62418d;
+  font-weight: bold;
+}
+
+.date-input-container {
+  margin-bottom: 20px;
+}
+
+/* Style the label if needed */
+.date-input-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style the custom date input */
+.custom-date-input::placeholder {
+  color: rgb(226, 225, 225); /* Adjust the color as needed */
+}
+.text-area11{
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #61428a;
+   
+  
+}
+.text-area11::placeholder{
+ color: lightgray;
+  margin: 10px;
+}
+.information-1{
+  font-weight: bold;
+}
+.form-control::placeholder{
+  color: lightgrey;
+}
+.form-control1::placeholder{
+  color: lightgrey;
+}
+.iconssocial{
+  width: 40px;
+}
+.submit-bntt{
+  text-align: center;
+}
+@media screen and (max-width : 500px) {
+  .text-area11{
+    width: 100%;
+  }
+  
+}
+.form-control1::placeholder{
+  color: lightgrey;
+ 
+}
+.profilebutton1999{
+  padding: 5px;
+  background-color: #2c0264;
+  color: white;
+  border-radius: 10px; 
+  width: 30%;
+}
+@media screen and (max-width : 400px) {
+  .profilebutton1999{
+    width: 100%;
+  }
+  
+}
+ 
