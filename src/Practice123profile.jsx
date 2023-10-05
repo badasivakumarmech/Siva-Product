@@ -1,4 +1,4 @@
-const Profile = ({title, thumbnailUrl, url}) => {
+const Profile11 = ({title, thumbnailUrl, url}) => {
     // const { title, thumbnailUrl, url } = props;
   
     return (
@@ -11,4 +11,4 @@ const Profile = ({title, thumbnailUrl, url}) => {
       </article>
     );
   };
-  export default Profile;
+  export default Profile11;

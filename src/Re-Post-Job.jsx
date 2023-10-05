@@ -95,11 +95,11 @@ function RePostJob() {
           </nav>
         </div>
       </div>
-      <div className="container bg-images1">
-        <div className="row">
+      <div className="container ">
+        <div className="row bg-images1">
           <div className="row">
             <div className="col-12 col-md-1"></div>
-            
+
             <div class="col-12 col-md-3 mt-4">
               <div class="card ">
                 <i
@@ -125,13 +125,13 @@ function RePostJob() {
                     </button>
                   </a>
                 </Link>
-              
-                  <a href="/ReChangePassword">
-                    <button class="p-2 mb-1  shadow profilebutton12 ">
-                      Change Password
-                    </button>
-                  </a>
-                 
+
+                <a href="/ReChangePassword">
+                  <button class="p-2 mb-1  shadow profilebutton12 ">
+                    Change Password
+                  </button>
+                </a>
+
                 <a href="">
                   <button class="p-2 mb-1 shadow profilebutton12 ">
                     Logout
@@ -433,8 +433,8 @@ function RePostJob() {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }

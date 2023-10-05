@@ -26,7 +26,7 @@ function ReCompanyProfile() {
                   style={{ marginLeft: "130px" }}
                 >
                   <li class="nav-item">
-                    <a class="nav-link navstyle2 " href="">
+                    <a class="nav-link navstyle2 " href="./ReDashBoard">
                       Dashboard
                     </a>
                   </li>
@@ -57,8 +57,8 @@ function ReCompanyProfile() {
           </nav>
         </div>
       </div>
-      <div className="container bg-images1">
-        <div className="row">
+      <div className="container">
+        <div className="row  bg-images1">
           <div className="row">
             <div className="col-12 col-md-1"></div>
             <div class="col-12 col-md-3 mt-4">
@@ -483,9 +483,8 @@ function ReCompanyProfile() {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
-      
-      <Footer />
     </div>
   );
 }

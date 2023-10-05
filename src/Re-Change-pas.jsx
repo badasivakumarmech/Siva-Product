@@ -5,7 +5,6 @@ import { useState } from "react";
 import Footer from "./Footer";
 
 function ReChangePassword() {
-  
   return (
     <div>
       <div className="container">
@@ -59,11 +58,11 @@ function ReChangePassword() {
           </nav>
         </div>
       </div>
-      <div className="container bg-images1">
-        <div className="row">
+      <div className="container">
+        <div className="row  bg-images1">
           <div className="row">
             <div className="col-12 col-md-1"></div>
-            
+
             <div class="col-12 col-md-3 mb-3 mt-4">
               <div class="card ">
                 <i
@@ -123,65 +122,57 @@ function ReChangePassword() {
             </div>
 
             <div className="col-md-7 text-start mt-4">
-            <div className="card p-4">
-              <h5 className="profileh5">Change Password</h5>
-              <hr />
-              <label htmlFor="oldPassword" className="profilename mb-1">
-                Old Password
-              </label>
-              <input
-                type="password"
-                id="oldPassword"
-                placeholder="Enter your Old password"
-                className="form-control m-0 w-100"
-                style={{ border: "1px solid black" }}
-
-              />
-              <div className="row mt-2">
-                <div className="col-md-5">
-                  <label htmlFor="newPassword" className="profileh5 mb-1">
-                    New Password
-                  </label>
-                  <br />
-                  <input
-                    type="password"
-                    id="newPassword"
-                    placeholder="Enter your new Password"
-                    className="form-control w-100 p-2 profileselect m-0"
-                    style={{ border: "1px solid black" }}
-                    
-                  />
+              <div className="card p-4">
+                <h5 className="profileh5">Change Password</h5>
+                <hr />
+                <label htmlFor="oldPassword" className="profilename mb-1">
+                  Old Password
+                </label>
+                <input
+                  type="password"
+                  id="oldPassword"
+                  placeholder="Enter your Old password"
+                  className="form-control m-0 w-100"
+                  style={{ border: "1px solid black" }}
+                />
+                <div className="row mt-2">
+                  <div className="col-md-5">
+                    <label htmlFor="newPassword" className="profileh5 mb-1">
+                      New Password
+                    </label>
+                    <br />
+                    <input
+                      type="password"
+                      id="newPassword"
+                      placeholder="Enter your new Password"
+                      className="form-control w-100 p-2 profileselect m-0"
+                      style={{ border: "1px solid black" }}
+                    />
+                  </div>
+                  <div className="col-md-1"></div>
+                  <div className="col-md-5">
+                    <label htmlFor="confirmPassword" className="profileh5 mb-1">
+                      Confirm Password
+                    </label>
+                    <br />
+                    <input
+                      type="password"
+                      id="confirmPassword"
+                      placeholder="Confirm Password"
+                      className="form-control w-100 p-2 profileselect m-0"
+                      style={{ border: "1px solid black" }}
+                    />
+                  </div>
                 </div>
-                <div className="col-md-1"></div>
-                <div className="col-md-5">
-                  <label htmlFor="confirmPassword" className="profileh5 mb-1">
-                    Confirm Password
-                  </label>
-                  <br />
-                  <input
-                    type="password"
-                    id="confirmPassword"
-                    placeholder="Confirm Password"
-                    className="form-control w-100 p-2 profileselect m-0"
-                    style={{ border: "1px solid black" }}
-                     
-                  />
-                </div>
+                <button className="mt-4 profilebutton1999 ">
+                  Update Password
+                </button>
               </div>
-              <button
-                
-                className="mt-4 profilebutton1999 "
-              >
-                Update Password
-              </button>
-               
             </div>
           </div>
-            
-          </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }
